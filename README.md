@@ -13,8 +13,6 @@ A configurable Pulse Width Modulation (PWM) controller implemented in Verilog, f
 pwm-controller-verilog/
 ├── src/ # Source Verilog files
 ├── testbench/ # Testbench files
-├── scripts/ # Simulation scripts
-└── docs/ # Documentation
 
 
 ## ⚡ Quick Start
