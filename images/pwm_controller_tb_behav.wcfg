@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="pwm_controller_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="pwm_controller_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="23.535001 us"></ZoomEndTime>
+      <Cursor1Time time="23.535000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="196"></NameColumnWidth>
+      <ValueColumnWidth column_width="313"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="8" />
+   <wvobject fp_name="/pwm_controller_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pwm_controller_tb/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pwm_controller_tb/enable" type="logic">
+      <obj_property name="ElementShortName">enable</obj_property>
+      <obj_property name="ObjectShortName">enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pwm_controller_tb/duty" type="array">
+      <obj_property name="ElementShortName">duty[7:0]</obj_property>
+      <obj_property name="ObjectShortName">duty[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pwm_controller_tb/pwm_out" type="logic">
+      <obj_property name="ElementShortName">pwm_out</obj_property>
+      <obj_property name="ObjectShortName">pwm_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pwm_controller_tb/high_count" type="array">
+      <obj_property name="ElementShortName">high_count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">high_count[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pwm_controller_tb/total_count" type="array">
+      <obj_property name="ElementShortName">total_count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">total_count[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pwm_controller_tb/measured_duty" type="other">
+      <obj_property name="ElementShortName">measured_duty</obj_property>
+      <obj_property name="ObjectShortName">measured_duty</obj_property>
+   </wvobject>
+</wave_config>
