@@ -56,4 +56,4 @@ pwm-controller-verilog/
 pwm_controller pwm_inst (
     .clk(clk_50mhz),      // 50 MHz clock
     .reset(rst),          // Active-high reset
-    .duty(8
+    .duty(8)
