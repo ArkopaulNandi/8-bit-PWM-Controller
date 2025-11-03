@@ -37,6 +37,17 @@ pwm-controller-verilog/
 - **PWM Frequency**: ~195.3 kHz (with 8-bit resolution)
 - **Duty Cycle Resolution**: 8-bit (0-255, 0.4% steps)
 
+## Block Diagram
+    +-------------------------------+
+    |        PWM Controller         |
+    |                               |
+--> | clk    [8-bit Counter]        | --> pwm_out
+--> | reset  [0->255->0]            |
+--> | duty   [Duty Register]        |
+--> | enable [Comparator]           |
+    |        counter < duty_reg?    |
+    +-------------------------------+
+
 ## 🧪 Testbenches
 
 - `pwm_controller_tb.v` - Basic functionality tests
@@ -57,3 +68,4 @@ pwm_controller pwm_inst (
     .clk(clk_50mhz),      // 50 MHz clock
     .reset(rst),          // Active-high reset
     .duty(8)
+```
