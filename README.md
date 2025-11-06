@@ -39,14 +39,23 @@ pwm-controller-verilog/
 
 ## Block Diagram
    +-------------------------------+
+   
    |        PWM Controller         |
+   
    |                               |
+   
 -> | clk    [8-bit Counter]        | --> pwm_out
+
 -> | reset  [0->255->0]            |
+
 -> | duty   [Duty Register]        |
+
 -> | enable [Comparator]           |
+
    |        counter < duty_reg?    |
+   
    +-------------------------------+
+   
 
 ## 🧪 Testbenches
 
